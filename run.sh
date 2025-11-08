@@ -1,0 +1,1 @@
+gunicorn app:app & celery -A tasks.celery worker --loglevel=info
